@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph __version="3.5.0" author="panugant" created="Thu Jul 30 14:33:30 IST 2015" description="CSV To XML" guiVersion="3.4.4.P" id="1438247515306" licenseCode="Unlicensed" licenseType="Unknown" modified="Thu Jul 30 14:33:30 IST 2015" modifiedBy="panugant" name="CSV_To_XML" preview-file="D:/Coke/Book1.csv" revision="1.0" showComponentDetails="false">
+<Global>
+<Metadata __referenceCounter="1" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _type="Input" id="adf8d577-065d-49aa-8114-8d39811084c5">
+<Record fieldDelimiter="," name="Book1" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field containerType="SINGLE" label="Constant" name="Constant" size="10" type="string"/>
+<Field containerType="SINGLE" label="Batch ID" name="Batch_ID" size="10" type="string"/>
+<Field containerType="SINGLE" label="Batch Date" name="Batch_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Sequence Number" name="Sequence_Number" size="10" type="string"/>
+<Field containerType="SINGLE" label="Employee ID" name="Employee_ID" size="10" type="string"/>
+<Field containerType="SINGLE" label="Employee Last Name" name="Employee_Last_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Employee First Name" name="Employee_First_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="MI" name="MI" size="10" type="string"/>
+<Field containerType="SINGLE" label="Employee Group ID (Custom 21)" name="Employee_Group_ID_Custom_21" size="10" type="string"/>
+<Field containerType="SINGLE" label="Employee Org Unit 1" name="Employee_Org_Unit_1" size="10" type="string"/>
+<Field containerType="SINGLE" label="Employee Org Unit 2" name="Employee_Org_Unit_2" size="10" type="string"/>
+<Field containerType="SINGLE" label="Employee Org Unit 3" name="Employee_Org_Unit_3" size="10" type="string"/>
+<Field containerType="SINGLE" label="Employee Org Unit 4" name="Employee_Org_Unit_4" size="10" type="string"/>
+<Field containerType="SINGLE" label="Employee Org Unit 5 - BU/Country of Residence" name="Employee_Org_Unit_5_BU_Country_of_Residence" size="10" type="string"/>
+<Field containerType="SINGLE" label="Employee Org Unit 6" name="Employee_Org_Unit_6" size="10" type="string"/>
+<Field containerType="SINGLE" label="ACH Bank Account Number" name="ACH_Bank_Account_Number" size="10" type="string"/>
+<Field containerType="SINGLE" label="ACH Bank Routing Number" name="ACH_Bank_Routing_Number" size="10" type="string"/>
+<Field containerType="SINGLE" label="Journal Net of Total Adjusted Reclaim Tax" name="Journal_Net_of_Total_Adjusted_Reclaim_Tax" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report ID" name="Report_ID" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Key" name="Report_Key" size="10" type="string"/>
+<Field containerType="SINGLE" label="Ledger" name="Ledger" size="10" type="string"/>
+<Field containerType="SINGLE" label="Reimbursement Currency Alpha ISE" name="Reimbursement_Currency_Alpha_ISE" size="10" type="string"/>
+<Field containerType="SINGLE" label="Home Country" name="Home_Country" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Submit Date" name="Report_Submit_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report User Defined Date" name="Report_User_Defined_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Payment Processing Date" name="Report_Payment_Processing_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Name" name="Report_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Image Required" name="Report_Image_Required" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report has VAT entry" name="Report_has_VAT_entry" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report has TA entry" name="Report_has_TA_entry" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Total Post Amount" name="Report_Total_Post_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Total Approved Amount" name="Report_Total_Approved_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Policy Name" name="Report_Policy_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Budget Accrual Date" name="Report_Entry_Budget_Accrual_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Org Unit 1" name="Report_Org_Unit_1" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Org Unit 2" name="Report_Org_Unit_2" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Org Unit 3" name="Report_Org_Unit_3" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Org Unit 4" name="Report_Org_Unit_4" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Org Unit 5" name="Report_Org_Unit_5" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Org Unit 6" name="Report_Org_Unit_6" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 1" name="Report_Custom_1" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 2" name="Report_Custom_2" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 3" name="Report_Custom_3" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 4" name="Report_Custom_4" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 5 - Country" name="Report_Custom_5_Country" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 6 - Company" name="Report_Custom_6_Company" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 7 - Cost Object Type" name="Report_Custom_7_Cost_Object_Type" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 8 - Cost Object Value" name="Report_Custom_8_Cost_Object_Value" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 9" name="Report_Custom_9" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 10" name="Report_Custom_10" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 11" name="Report_Custom_11" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 12" name="Report_Custom_12" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 13" name="Report_Custom_13" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 14" name="Report_Custom_14" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 15" name="Report_Custom_15" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 16" name="Report_Custom_16" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 17 - AP Vendor ID" name="Report_Custom_17_AP_Vendor_ID" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 18" name="Report_Custom_18" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 19" name="Report_Custom_19" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Custom 20" name="Report_Custom_20" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Id" name="Report_Entry_Id" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Transaction Type" name="Report_Entry_Transaction_Type" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Expense Type Name" name="Report_Entry_Expense_Type_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Transaction Date" name="Report_Entry_Transaction_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Currency Alpha Code" name="Report_Entry_Currency_Alpha_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Exchange Rate" name="Report_Entry_Exchange_Rate" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Exchange Rate Direction" name="Report_Entry_Exchange_Rate_Direction" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Is Personal Flag" name="Report_Entry_Is_Personal_Flag" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Description" name="Report_Entry_Description" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Vendor Name" name="Report_Entry_Vendor_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Vendor Description" name="Report_Entry_Vendor_Description" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Receipt Received Flag" name="Report_Entry_Receipt_Received_Flag" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Receipt Type" name="Report_Entry_Receipt_Type" size="10" type="string"/>
+<Field containerType="SINGLE" label="Total Employee Attendee" name="Total_Employee_Attendee" size="10" type="string"/>
+<Field containerType="SINGLE" label="Total Spouse Attendee" name="Total_Spouse_Attendee" size="10" type="string"/>
+<Field containerType="SINGLE" label="Total Business Attendee" name="Total_Business_Attendee" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Org Unit 1" name="Report_Entry_Org_Unit_1" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Org Unit 2" name="Report_Entry_Org_Unit_2" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Org Unit 3" name="Report_Entry_Org_Unit_3" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Org Unit 4" name="Report_Entry_Org_Unit_4" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Org Unit 5" name="Report_Entry_Org_Unit_5" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Org Unit 6" name="Report_Entry_Org_Unit_6" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 1" name="Report_Entry_Custom_1" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 2" name="Report_Entry_Custom_2" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 3" name="Report_Entry_Custom_3" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 4" name="Report_Entry_Custom_4" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 5" name="Report_Entry_Custom_5" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 6" name="Report_Entry_Custom_6" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 7" name="Report_Entry_Custom_7" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 8" name="Report_Entry_Custom_8" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 9" name="Report_Entry_Custom_9" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 10" name="Report_Entry_Custom_10" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 11" name="Report_Entry_Custom_11" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 12" name="Report_Entry_Custom_12" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 13" name="Report_Entry_Custom_13" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 14" name="Report_Entry_Custom_14" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 15" name="Report_Entry_Custom_15" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 16" name="Report_Entry_Custom_16" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 17" name="Report_Entry_Custom_17" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 18" name="Report_Entry_Custom_18" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 19" name="Report_Entry_Custom_19" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 20" name="Report_Entry_Custom_20" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 21" name="Report_Entry_Custom_21" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 22" name="Report_Entry_Custom_22" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 23" name="Report_Entry_Custom_23" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 24" name="Report_Entry_Custom_24" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 25" name="Report_Entry_Custom_25" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 26" name="Report_Entry_Custom_26" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 27" name="Report_Entry_Custom_27" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 28" name="Report_Entry_Custom_28" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 29" name="Report_Entry_Custom_29" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 30" name="Report_Entry_Custom_30" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 31" name="Report_Entry_Custom_31" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 32" name="Report_Entry_Custom_32" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 33" name="Report_Entry_Custom_33" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 34" name="Report_Entry_Custom_34" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 35" name="Report_Entry_Custom_35" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 36" name="Report_Entry_Custom_36" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 37" name="Report_Entry_Custom_37" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 38" name="Report_Entry_Custom_38" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 39" name="Report_Entry_Custom_39" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Custom 40" name="Report_Entry_Custom_40" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Transaction Amount" name="Report_Entry_Transaction_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Posted Amount" name="Report_Entry_Posted_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Approved Amount" name="Report_Entry_Approved_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Payment Type Code" name="Payment_Type_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Payment Code" name="Payment_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Payment Reimbursement Type" name="Report_Payment_Reimbursement_Type" size="10" type="string"/>
+<Field containerType="SINGLE" label="Bill Date" name="Bill_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Billed Credit Card Account Number" name="Billed_Credit_Card_Account_Number" size="10" type="string"/>
+<Field containerType="SINGLE" label="Billed Credit Card Description" name="Billed_Credit_Card_Description" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction JR Key" name="Credit_Card_Transaction_JR_Key" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Reference Number" name="Credit_Card_Transaction_Reference_Number" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction CCT Key" name="Credit_Card_Transaction_CCT_Key" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction CCT Type" name="Credit_Card_Transaction_CCT_Type" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction ID" name="Credit_Card_Transaction_ID" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Amount" name="Credit_Card_Transaction_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Tax Amount" name="Credit_Card_Transaction_Tax_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Currency Alpha Code" name="Credit_Card_Transaction_Currency_Alpha_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Posted Amount" name="Credit_Card_Transaction_Posted_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Posted Currency Alpha Code" name="Credit_Card_Transaction_Posted_Currency_Alpha_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Date" name="Credit_Card_Transaction_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Posted Date" name="Credit_Card_Transaction_Posted_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Description" name="Credit_Card_Transaction_Description" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Master Card Code" name="Credit_Card_Transaction_Master_Card_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Merchant Name" name="Credit_Card_Transaction_Merchant_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Merchant City" name="Credit_Card_Transaction_Merchant_City" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Merchant State" name="Credit_Card_Transaction_Merchant_State" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Merchant Country Code" name="Credit_Card_Transaction_Merchant_Country_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Merchant Reference Number" name="Credit_Card_Transaction_Merchant_Reference_Number" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Billing Type" name="Credit_Card_Transaction_Billing_Type" size="10" type="string"/>
+<Field containerType="SINGLE" label="Exchange Rate From Billing To Employee Currency" name="Exchange_Rate_From_Billing_To_Employee_Currency" size="10" type="string"/>
+<Field containerType="SINGLE" label="Billing Amount" name="Billing_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Individual Credit Card Account Number" name="Individual_Credit_Card_Account_Number" size="10" type="string"/>
+<Field containerType="SINGLE" label="Individual Credit Card Name On Card" name="Individual_Credit_Card_Name_On_Card" size="10" type="string"/>
+<Field containerType="SINGLE" label="Merchant Doing Business As" name="Merchant_Doing_Business_As" size="10" type="string"/>
+<Field containerType="SINGLE" label="Acquirer Reference Number" name="Acquirer_Reference_Number" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Location Country Code" name="Report_Entry_Location_Country_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Location Country Sub Code" name="Report_Entry_Location_Country_Sub_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Foreign or Domestic Flag" name="Report_Entry_Foreign_or_Domestic_Flag" size="10" type="string"/>
+<Field containerType="SINGLE" label="Market Code" name="Market_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Processor Reference Number" name="Processor_Reference_Number" size="10" type="string"/>
+<Field containerType="SINGLE" label="Journal Payer Payment Type Name" name="Journal_Payer_Payment_Type_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Journal Payer Payment Code Name" name="Journal_Payer_Payment_Code_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Journal Payee Payment Type Name" name="Journal_Payee_Payment_Type_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Journal Payee Payment Code Name" name="Journal_Payee_Payment_Code_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Journal Account Code" name="Journal_Account_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Journal Debit or Credit" name="Journal_Debit_or_Credit" size="10" type="string"/>
+<Field containerType="SINGLE" label="Journal Amount" name="Journal_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Journal Key" name="Journal_Key" size="10" type="string"/>
+<Field containerType="SINGLE" label="Car Business Distance" name="Car_Business_Distance" size="10" type="string"/>
+<Field containerType="SINGLE" label="Car Personal Distance" name="Car_Personal_Distance" size="10" type="string"/>
+<Field containerType="SINGLE" label="Car Passenger Count" name="Car_Passenger_Count" size="10" type="string"/>
+<Field containerType="SINGLE" label="Vehicle ID" name="Vehicle_ID" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Transaction Sales" name="Credit_Card_Transaction_Sales" size="10" type="string"/>
+<Field containerType="SINGLE" label="Credit Card Vendor Name" name="Credit_Card_Vendor_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Advance Request Amount" name="Cash_Advance_Request_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Advance Request Currency Alpha Code" name="Cash_Advance_Request_Currency_Alpha_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Advance Request Currency Numeric Code" name="Cash_Advance_Request_Currency_Numeric_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Advance Exchange Rate" name="Cash_Advance_Exchange_Rate" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Advance Currency Alpha Code" name="Cash_Advance_Currency_Alpha_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Advance Currency Numeric Code" name="Cash_Advance_Currency_Numeric_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Advance Issued Date" name="Cash_Advance_Issued_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Advance Payment Code Name" name="Cash_Advance_Payment_Code_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Advance Transaction Type" name="Cash_Advance_Transaction_Type" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Advance Request Date" name="Cash_Advance_Request_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Advance Key" name="Cash_Advance_Key" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Advance Payment Method" name="Cash_Advance_Payment_Method" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Key" name="Allocation_Key" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Percentage" name="Allocation_Percentage" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 1" name="Allocation_Custom_1" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 2" name="Allocation_Custom_2" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 3" name="Allocation_Custom_3" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 4" name="Allocation_Custom_4" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 5" name="Allocation_Custom_5" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 6 - Country" name="Allocation_Custom_6_Country" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 7 - Company" name="Allocation_Custom_7_Company" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 8 - Cost Object Type" name="Allocation_Custom_8_Cost_Object_Type" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 9 - Cost Object Value" name="Allocation_Custom_9_Cost_Object_Value" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 10" name="Allocation_Custom_10" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 11" name="Allocation_Custom_11" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 12" name="Allocation_Custom_12" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 13" name="Allocation_Custom_13" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 14" name="Allocation_Custom_14" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 15" name="Allocation_Custom_15" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 16" name="Allocation_Custom_16" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 17" name="Allocation_Custom_17" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 18" name="Allocation_Custom_18" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 19" name="Allocation_Custom_19" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allocation Custom 20" name="Allocation_Custom_20" size="10" type="string"/>
+<Field containerType="SINGLE" label="Journal Net of Total Adjusted Tax" name="Journal_Net_of_Total_Adjusted_Tax" size="10" type="string"/>
+<Field containerType="SINGLE" label="TA Reimb. Meal Lodging or Combined Type" name="TA_Reimb_Meal_Lodging_or_Combined_Type" size="10" type="string"/>
+<Field containerType="SINGLE" label="TA Display Limit" name="TA_Display_Limit" size="10" type="string"/>
+<Field containerType="SINGLE" label="TA Allowance Limit" name="TA_Allowance_Limit" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allowable Threshold" name="Allowable_Threshold" size="10" type="string"/>
+<Field containerType="SINGLE" label="TA Fixed Meal Lodging Type" name="TA_Fixed_Meal_Lodging_Type" size="10" type="string"/>
+<Field containerType="SINGLE" label="Base Amount" name="Base_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Allowance Amount" name="Allowance_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="TA Fixed Overnight" name="TA_Fixed_Overnight" size="10" type="string"/>
+<Field containerType="SINGLE" label="TA Fixed Breakfast Provided Flag" name="TA_Fixed_Breakfast_Provided_Flag" size="10" type="string"/>
+<Field containerType="SINGLE" label="TA Fixed Lunch Provided Flag" name="TA_Fixed_Lunch_Provided_Flag" size="10" type="string"/>
+<Field containerType="SINGLE" label="TA Fixed Dinner Provided Flag" name="TA_Fixed_Dinner_Provided_Flag" size="10" type="string"/>
+<Field containerType="SINGLE" label="Total Tax Adjusted Posted Amount" name="Total_Tax_Adjusted_Posted_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Total Reclaim Adjusted Amount" name="Total_Reclaim_Adjusted_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Tax Authority Name" name="Tax_Authority_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Tax Authority Label" name="Tax_Authority_Label" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Tax Transaction Amount" name="Report_Entry_Tax_Transaction_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Tax Posted Amount" name="Report_Entry_Tax_Posted_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Tax Source" name="Tax_Source" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Tax Reclaim Transaction Amount" name="Report_Entry_Tax_Reclaim_Transaction_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Tax Reclaim Posted Amount" name="Report_Entry_Tax_Reclaim_Posted_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Tax Code" name="Report_Entry_Tax_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Tax Reclaim Domestic Flag" name="Report_Entry_Tax_Reclaim_Domestic_Flag" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Tax Adjusted Amount" name="Report_Entry_Tax_Adjusted_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Tax Reclaim Adjusted Amount" name="Report_Entry_Tax_Reclaim_Adjusted_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Tax Reclaim Code" name="Report_Entry_Tax_Reclaim_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Tax Reclaim Trans Adjusted Code" name="Report_Entry_Tax_Reclaim_Trans_Adjusted_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Tax Allocation Reclaim Code" name="Report_Entry_Tax_Allocation_Reclaim_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Travel Request ID" name="Travel_Request_ID" size="10" type="string"/>
+<Field containerType="SINGLE" label="Travel Request Name" name="Travel_Request_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Travel Request Total Posted Amount" name="Travel_Request_Total_Posted_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Travel Request Total Approved Amount" name="Travel_Request_Total_Approved_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Travel Request Start Date" name="Travel_Request_Start_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Travel Request End Date" name="Travel_Request_End_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Travel Request Authorized Date" name="Travel_Request_Authorized_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Total&#10;Tax Posted&#10;Amount" name="Report_Entry_TotalTax_PostedAmount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Net Tax Amount" name="Net_Tax_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Total&#10;Reclaim Adjusted&#10;Amount" name="Report_Entry_TotalReclaim_AdjustedAmount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Net Adjusted&#10;Reclaim Amount" name="Net_AdjustedReclaim_Amount" size="10" type="string"/>
+<Field containerType="SINGLE" label="Report Entry Payment Type Name" name="Report_Entry_Payment_Type_Name" size="10" type="string"/>
+<Field containerType="SINGLE" label="Card Program Type Code" name="Card_Program_Type_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Statement Period Start Date" name="Statement_Period_Start_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Statement Period End Date" name="Statement_Period_End_Date" size="10" type="string"/>
+<Field containerType="SINGLE" label="Cash Account Code" name="Cash_Account_Code" size="10" type="string"/>
+<Field containerType="SINGLE" label="Liability Account Code" name="Liability_Account_Code" size="10" type="string"/>
+<Field containerType="SINGLE" eofAsDelimiter="true" label="Estimated Payment Date" name="Estimated_Payment_Date" size="10" type="string"/>
+<Field __artificialType="_id" auto_filling="global_row_count" name="__id" type="long"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/Book1" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _type="Output" id="18cde7f1-3a5b-47d7-9004-18948d0c6f88">
+<Record fieldDelimiter="," name="Book1" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="0" __sourcePath="{}/Book1/Constant" containerType="SINGLE" label="Constant" name="Constant" type="string"/>
+<Field __index="1" __sourcePath="{}/Book1/Batch_ID" containerType="SINGLE" label="Batch ID" name="Batch_ID" type="string"/>
+<Field __index="2" __sourcePath="{}/Book1/Batch_Date" containerType="SINGLE" label="Batch Date" name="Batch_Date" type="string"/>
+<Field __index="3" __sourcePath="{}/Book1/Sequence_Number" containerType="SINGLE" label="Sequence Number" name="Sequence_Number" type="string"/>
+<Field __index="4" __sourcePath="{}/Book1/Employee_ID" containerType="SINGLE" label="Employee ID" name="Employee_ID" type="string"/>
+<Field __index="5" __sourcePath="{}/Book1/Employee_Last_Name" containerType="SINGLE" label="Employee Last Name" name="Employee_Last_Name" type="string"/>
+<Field __index="6" __sourcePath="{}/Book1/Employee_First_Name" containerType="SINGLE" label="Employee First Name" name="Employee_First_Name" type="string"/>
+<Field __index="7" __sourcePath="{}/Book1/MI" containerType="SINGLE" label="MI" name="MI" type="string"/>
+<Field __index="8" __sourcePath="{}/Book1/Employee_Group_ID_Custom_21" containerType="SINGLE" label="Employee Group ID (Custom 21)" name="Employee_Group_ID_Custom_21" type="string"/>
+<Field __index="9" __sourcePath="{}/Book1/Employee_Org_Unit_1" containerType="SINGLE" label="Employee Org Unit 1" name="Employee_Org_Unit_1" type="string"/>
+<Field __index="10" __sourcePath="{}/Book1/Employee_Org_Unit_2" containerType="SINGLE" label="Employee Org Unit 2" name="Employee_Org_Unit_2" type="string"/>
+<Field __index="11" __sourcePath="{}/Book1/Employee_Org_Unit_3" containerType="SINGLE" label="Employee Org Unit 3" name="Employee_Org_Unit_3" type="string"/>
+<Field __index="12" __sourcePath="{}/Book1/Employee_Org_Unit_4" containerType="SINGLE" label="Employee Org Unit 4" name="Employee_Org_Unit_4" type="string"/>
+<Field __index="13" __sourcePath="{}/Book1/Employee_Org_Unit_5_BU_Country_of_Residence" containerType="SINGLE" label="Employee Org Unit 5 - BU/Country of Residence" name="Employee_Org_Unit_5_BU_Country_of_Residence" type="string"/>
+<Field __index="14" __sourcePath="{}/Book1/Employee_Org_Unit_6" containerType="SINGLE" label="Employee Org Unit 6" name="Employee_Org_Unit_6" type="string"/>
+<Field __index="15" __sourcePath="{}/Book1/ACH_Bank_Account_Number" containerType="SINGLE" label="ACH Bank Account Number" name="ACH_Bank_Account_Number" type="string"/>
+<Field __index="16" __sourcePath="{}/Book1/ACH_Bank_Routing_Number" containerType="SINGLE" label="ACH Bank Routing Number" name="ACH_Bank_Routing_Number" type="string"/>
+<Field __index="17" __sourcePath="{}/Book1/Journal_Net_of_Total_Adjusted_Reclaim_Tax" containerType="SINGLE" label="Journal Net of Total Adjusted Reclaim Tax" name="Journal_Net_of_Total_Adjusted_Reclaim_Tax" type="string"/>
+<Field __index="18" __sourcePath="{}/Book1/Report_ID" containerType="SINGLE" label="Report ID" name="Report_ID" type="string"/>
+<Field __index="19" __sourcePath="{}/Book1/Report_Key" containerType="SINGLE" label="Report Key" name="Report_Key" type="string"/>
+<Field __index="20" __sourcePath="{}/Book1/Ledger" containerType="SINGLE" label="Ledger" name="Ledger" type="string"/>
+<Field __index="21" __sourcePath="{}/Book1/Reimbursement_Currency_Alpha_ISE" containerType="SINGLE" label="Reimbursement Currency Alpha ISE" name="Reimbursement_Currency_Alpha_ISE" type="string"/>
+<Field __index="22" __sourcePath="{}/Book1/Home_Country" containerType="SINGLE" label="Home Country" name="Home_Country" type="string"/>
+<Field __index="23" __sourcePath="{}/Book1/Report_Submit_Date" containerType="SINGLE" label="Report Submit Date" name="Report_Submit_Date" type="string"/>
+<Field __index="24" __sourcePath="{}/Book1/Report_User_Defined_Date" containerType="SINGLE" label="Report User Defined Date" name="Report_User_Defined_Date" type="string"/>
+<Field __index="25" __sourcePath="{}/Book1/Report_Payment_Processing_Date" containerType="SINGLE" label="Report Payment Processing Date" name="Report_Payment_Processing_Date" type="string"/>
+<Field __index="26" __sourcePath="{}/Book1/Report_Name" containerType="SINGLE" label="Report Name" name="Report_Name" type="string"/>
+<Field __index="27" __sourcePath="{}/Book1/Report_Image_Required" containerType="SINGLE" label="Report Image Required" name="Report_Image_Required" type="string"/>
+<Field __index="28" __sourcePath="{}/Book1/Report_has_VAT_entry" containerType="SINGLE" label="Report has VAT entry" name="Report_has_VAT_entry" type="string"/>
+<Field __index="29" __sourcePath="{}/Book1/Report_has_TA_entry" containerType="SINGLE" label="Report has TA entry" name="Report_has_TA_entry" type="string"/>
+<Field __index="30" __sourcePath="{}/Book1/Report_Total_Post_Amount" containerType="SINGLE" label="Report Total Post Amount" name="Report_Total_Post_Amount" type="string"/>
+<Field __index="31" __sourcePath="{}/Book1/Report_Total_Approved_Amount" containerType="SINGLE" label="Report Total Approved Amount" name="Report_Total_Approved_Amount" type="string"/>
+<Field __index="32" __sourcePath="{}/Book1/Report_Policy_Name" containerType="SINGLE" label="Report Policy Name" name="Report_Policy_Name" type="string"/>
+<Field __index="33" __sourcePath="{}/Book1/Report_Entry_Budget_Accrual_Date" containerType="SINGLE" label="Report Entry Budget Accrual Date" name="Report_Entry_Budget_Accrual_Date" type="string"/>
+<Field __index="34" __sourcePath="{}/Book1/Report_Org_Unit_1" containerType="SINGLE" label="Report Org Unit 1" name="Report_Org_Unit_1" type="string"/>
+<Field __index="35" __sourcePath="{}/Book1/Report_Org_Unit_2" containerType="SINGLE" label="Report Org Unit 2" name="Report_Org_Unit_2" type="string"/>
+<Field __index="36" __sourcePath="{}/Book1/Report_Org_Unit_3" containerType="SINGLE" label="Report Org Unit 3" name="Report_Org_Unit_3" type="string"/>
+<Field __index="37" __sourcePath="{}/Book1/Report_Org_Unit_4" containerType="SINGLE" label="Report Org Unit 4" name="Report_Org_Unit_4" type="string"/>
+<Field __index="38" __sourcePath="{}/Book1/Report_Org_Unit_5" containerType="SINGLE" label="Report Org Unit 5" name="Report_Org_Unit_5" type="string"/>
+<Field __index="39" __sourcePath="{}/Book1/Report_Org_Unit_6" containerType="SINGLE" label="Report Org Unit 6" name="Report_Org_Unit_6" type="string"/>
+<Field __index="40" __sourcePath="{}/Book1/Report_Custom_1" containerType="SINGLE" label="Report Custom 1" name="Report_Custom_1" type="string"/>
+<Field __index="41" __sourcePath="{}/Book1/Report_Custom_2" containerType="SINGLE" label="Report Custom 2" name="Report_Custom_2" type="string"/>
+<Field __index="42" __sourcePath="{}/Book1/Report_Custom_3" containerType="SINGLE" label="Report Custom 3" name="Report_Custom_3" type="string"/>
+<Field __index="43" __sourcePath="{}/Book1/Report_Custom_4" containerType="SINGLE" label="Report Custom 4" name="Report_Custom_4" type="string"/>
+<Field __index="44" __sourcePath="{}/Book1/Report_Custom_5_Country" containerType="SINGLE" label="Report Custom 5 - Country" name="Report_Custom_5_Country" type="string"/>
+<Field __index="45" __sourcePath="{}/Book1/Report_Custom_6_Company" containerType="SINGLE" label="Report Custom 6 - Company" name="Report_Custom_6_Company" type="string"/>
+<Field __index="46" __sourcePath="{}/Book1/Report_Custom_7_Cost_Object_Type" containerType="SINGLE" label="Report Custom 7 - Cost Object Type" name="Report_Custom_7_Cost_Object_Type" type="string"/>
+<Field __index="47" __sourcePath="{}/Book1/Report_Custom_8_Cost_Object_Value" containerType="SINGLE" label="Report Custom 8 - Cost Object Value" name="Report_Custom_8_Cost_Object_Value" type="string"/>
+<Field __index="48" __sourcePath="{}/Book1/Report_Custom_9" containerType="SINGLE" label="Report Custom 9" name="Report_Custom_9" type="string"/>
+<Field __index="49" __sourcePath="{}/Book1/Report_Custom_10" containerType="SINGLE" label="Report Custom 10" name="Report_Custom_10" type="string"/>
+<Field __index="50" __sourcePath="{}/Book1/Report_Custom_11" containerType="SINGLE" label="Report Custom 11" name="Report_Custom_11" type="string"/>
+<Field __index="51" __sourcePath="{}/Book1/Report_Custom_12" containerType="SINGLE" label="Report Custom 12" name="Report_Custom_12" type="string"/>
+<Field __index="52" __sourcePath="{}/Book1/Report_Custom_13" containerType="SINGLE" label="Report Custom 13" name="Report_Custom_13" type="string"/>
+<Field __index="53" __sourcePath="{}/Book1/Report_Custom_14" containerType="SINGLE" label="Report Custom 14" name="Report_Custom_14" type="string"/>
+<Field __index="54" __sourcePath="{}/Book1/Report_Custom_15" containerType="SINGLE" label="Report Custom 15" name="Report_Custom_15" type="string"/>
+<Field __index="55" __sourcePath="{}/Book1/Report_Custom_16" containerType="SINGLE" label="Report Custom 16" name="Report_Custom_16" type="string"/>
+<Field __index="56" __sourcePath="{}/Book1/Report_Custom_17_AP_Vendor_ID" containerType="SINGLE" label="Report Custom 17 - AP Vendor ID" name="Report_Custom_17_AP_Vendor_ID" type="string"/>
+<Field __index="57" __sourcePath="{}/Book1/Report_Custom_18" containerType="SINGLE" label="Report Custom 18" name="Report_Custom_18" type="string"/>
+<Field __index="58" __sourcePath="{}/Book1/Report_Custom_19" containerType="SINGLE" label="Report Custom 19" name="Report_Custom_19" type="string"/>
+<Field __index="59" __sourcePath="{}/Book1/Report_Custom_20" containerType="SINGLE" label="Report Custom 20" name="Report_Custom_20" type="string"/>
+<Field __index="60" __sourcePath="{}/Book1/Report_Entry_Id" containerType="SINGLE" label="Report Entry Id" name="Report_Entry_Id" type="string"/>
+<Field __index="61" __sourcePath="{}/Book1/Report_Entry_Transaction_Type" containerType="SINGLE" label="Report Entry Transaction Type" name="Report_Entry_Transaction_Type" type="string"/>
+<Field __index="62" __sourcePath="{}/Book1/Report_Entry_Expense_Type_Name" containerType="SINGLE" label="Report Entry Expense Type Name" name="Report_Entry_Expense_Type_Name" type="string"/>
+<Field __index="63" __sourcePath="{}/Book1/Report_Entry_Transaction_Date" containerType="SINGLE" label="Report Entry Transaction Date" name="Report_Entry_Transaction_Date" type="string"/>
+<Field __index="64" __sourcePath="{}/Book1/Report_Entry_Currency_Alpha_Code" containerType="SINGLE" label="Report Entry Currency Alpha Code" name="Report_Entry_Currency_Alpha_Code" type="string"/>
+<Field __index="65" __sourcePath="{}/Book1/Report_Entry_Exchange_Rate" containerType="SINGLE" label="Report Entry Exchange Rate" name="Report_Entry_Exchange_Rate" type="string"/>
+<Field __index="66" __sourcePath="{}/Book1/Report_Entry_Exchange_Rate_Direction" containerType="SINGLE" label="Report Entry Exchange Rate Direction" name="Report_Entry_Exchange_Rate_Direction" type="string"/>
+<Field __index="67" __sourcePath="{}/Book1/Report_Entry_Is_Personal_Flag" containerType="SINGLE" label="Report Entry Is Personal Flag" name="Report_Entry_Is_Personal_Flag" type="string"/>
+<Field __index="68" __sourcePath="{}/Book1/Report_Entry_Description" containerType="SINGLE" label="Report Entry Description" name="Report_Entry_Description" type="string"/>
+<Field __index="69" __sourcePath="{}/Book1/Report_Entry_Vendor_Name" containerType="SINGLE" label="Report Entry Vendor Name" name="Report_Entry_Vendor_Name" type="string"/>
+<Field __index="70" __sourcePath="{}/Book1/Report_Entry_Vendor_Description" containerType="SINGLE" label="Report Entry Vendor Description" name="Report_Entry_Vendor_Description" type="string"/>
+<Field __index="71" __sourcePath="{}/Book1/Report_Entry_Receipt_Received_Flag" containerType="SINGLE" label="Report Entry Receipt Received Flag" name="Report_Entry_Receipt_Received_Flag" type="string"/>
+<Field __index="72" __sourcePath="{}/Book1/Report_Entry_Receipt_Type" containerType="SINGLE" label="Report Entry Receipt Type" name="Report_Entry_Receipt_Type" type="string"/>
+<Field __index="73" __sourcePath="{}/Book1/Total_Employee_Attendee" containerType="SINGLE" label="Total Employee Attendee" name="Total_Employee_Attendee" type="string"/>
+<Field __index="74" __sourcePath="{}/Book1/Total_Spouse_Attendee" containerType="SINGLE" label="Total Spouse Attendee" name="Total_Spouse_Attendee" type="string"/>
+<Field __index="75" __sourcePath="{}/Book1/Total_Business_Attendee" containerType="SINGLE" label="Total Business Attendee" name="Total_Business_Attendee" type="string"/>
+<Field __index="76" __sourcePath="{}/Book1/Report_Entry_Org_Unit_1" containerType="SINGLE" label="Report Entry Org Unit 1" name="Report_Entry_Org_Unit_1" type="string"/>
+<Field __index="77" __sourcePath="{}/Book1/Report_Entry_Org_Unit_2" containerType="SINGLE" label="Report Entry Org Unit 2" name="Report_Entry_Org_Unit_2" type="string"/>
+<Field __index="78" __sourcePath="{}/Book1/Report_Entry_Org_Unit_3" containerType="SINGLE" label="Report Entry Org Unit 3" name="Report_Entry_Org_Unit_3" type="string"/>
+<Field __index="79" __sourcePath="{}/Book1/Report_Entry_Org_Unit_4" containerType="SINGLE" label="Report Entry Org Unit 4" name="Report_Entry_Org_Unit_4" type="string"/>
+<Field __index="80" __sourcePath="{}/Book1/Report_Entry_Org_Unit_5" containerType="SINGLE" label="Report Entry Org Unit 5" name="Report_Entry_Org_Unit_5" type="string"/>
+<Field __index="81" __sourcePath="{}/Book1/Report_Entry_Org_Unit_6" containerType="SINGLE" label="Report Entry Org Unit 6" name="Report_Entry_Org_Unit_6" type="string"/>
+<Field __index="82" __sourcePath="{}/Book1/Report_Entry_Custom_1" containerType="SINGLE" label="Report Entry Custom 1" name="Report_Entry_Custom_1" type="string"/>
+<Field __index="83" __sourcePath="{}/Book1/Report_Entry_Custom_2" containerType="SINGLE" label="Report Entry Custom 2" name="Report_Entry_Custom_2" type="string"/>
+<Field __index="84" __sourcePath="{}/Book1/Report_Entry_Custom_3" containerType="SINGLE" label="Report Entry Custom 3" name="Report_Entry_Custom_3" type="string"/>
+<Field __index="85" __sourcePath="{}/Book1/Report_Entry_Custom_4" containerType="SINGLE" label="Report Entry Custom 4" name="Report_Entry_Custom_4" type="string"/>
+<Field __index="86" __sourcePath="{}/Book1/Report_Entry_Custom_5" containerType="SINGLE" label="Report Entry Custom 5" name="Report_Entry_Custom_5" type="string"/>
+<Field __index="87" __sourcePath="{}/Book1/Report_Entry_Custom_6" containerType="SINGLE" label="Report Entry Custom 6" name="Report_Entry_Custom_6" type="string"/>
+<Field __index="88" __sourcePath="{}/Book1/Report_Entry_Custom_7" containerType="SINGLE" label="Report Entry Custom 7" name="Report_Entry_Custom_7" type="string"/>
+<Field __index="89" __sourcePath="{}/Book1/Report_Entry_Custom_8" containerType="SINGLE" label="Report Entry Custom 8" name="Report_Entry_Custom_8" type="string"/>
+<Field __index="90" __sourcePath="{}/Book1/Report_Entry_Custom_9" containerType="SINGLE" label="Report Entry Custom 9" name="Report_Entry_Custom_9" type="string"/>
+<Field __index="91" __sourcePath="{}/Book1/Report_Entry_Custom_10" containerType="SINGLE" label="Report Entry Custom 10" name="Report_Entry_Custom_10" type="string"/>
+<Field __index="92" __sourcePath="{}/Book1/Report_Entry_Custom_11" containerType="SINGLE" label="Report Entry Custom 11" name="Report_Entry_Custom_11" type="string"/>
+<Field __index="93" __sourcePath="{}/Book1/Report_Entry_Custom_12" containerType="SINGLE" label="Report Entry Custom 12" name="Report_Entry_Custom_12" type="string"/>
+<Field __index="94" __sourcePath="{}/Book1/Report_Entry_Custom_13" containerType="SINGLE" label="Report Entry Custom 13" name="Report_Entry_Custom_13" type="string"/>
+<Field __index="95" __sourcePath="{}/Book1/Report_Entry_Custom_14" containerType="SINGLE" label="Report Entry Custom 14" name="Report_Entry_Custom_14" type="string"/>
+<Field __index="96" __sourcePath="{}/Book1/Report_Entry_Custom_15" containerType="SINGLE" label="Report Entry Custom 15" name="Report_Entry_Custom_15" type="string"/>
+<Field __index="97" __sourcePath="{}/Book1/Report_Entry_Custom_16" containerType="SINGLE" label="Report Entry Custom 16" name="Report_Entry_Custom_16" type="string"/>
+<Field __index="98" __sourcePath="{}/Book1/Report_Entry_Custom_17" containerType="SINGLE" label="Report Entry Custom 17" name="Report_Entry_Custom_17" type="string"/>
+<Field __index="99" __sourcePath="{}/Book1/Report_Entry_Custom_18" containerType="SINGLE" label="Report Entry Custom 18" name="Report_Entry_Custom_18" type="string"/>
+<Field __index="100" __sourcePath="{}/Book1/Report_Entry_Custom_19" containerType="SINGLE" label="Report Entry Custom 19" name="Report_Entry_Custom_19" type="string"/>
+<Field __index="101" __sourcePath="{}/Book1/Report_Entry_Custom_20" containerType="SINGLE" label="Report Entry Custom 20" name="Report_Entry_Custom_20" type="string"/>
+<Field __index="102" __sourcePath="{}/Book1/Report_Entry_Custom_21" containerType="SINGLE" label="Report Entry Custom 21" name="Report_Entry_Custom_21" type="string"/>
+<Field __index="103" __sourcePath="{}/Book1/Report_Entry_Custom_22" containerType="SINGLE" label="Report Entry Custom 22" name="Report_Entry_Custom_22" type="string"/>
+<Field __index="104" __sourcePath="{}/Book1/Report_Entry_Custom_23" containerType="SINGLE" label="Report Entry Custom 23" name="Report_Entry_Custom_23" type="string"/>
+<Field __index="105" __sourcePath="{}/Book1/Report_Entry_Custom_24" containerType="SINGLE" label="Report Entry Custom 24" name="Report_Entry_Custom_24" type="string"/>
+<Field __index="106" __sourcePath="{}/Book1/Report_Entry_Custom_25" containerType="SINGLE" label="Report Entry Custom 25" name="Report_Entry_Custom_25" type="string"/>
+<Field __index="107" __sourcePath="{}/Book1/Report_Entry_Custom_26" containerType="SINGLE" label="Report Entry Custom 26" name="Report_Entry_Custom_26" type="string"/>
+<Field __index="108" __sourcePath="{}/Book1/Report_Entry_Custom_27" containerType="SINGLE" label="Report Entry Custom 27" name="Report_Entry_Custom_27" type="string"/>
+<Field __index="109" __sourcePath="{}/Book1/Report_Entry_Custom_28" containerType="SINGLE" label="Report Entry Custom 28" name="Report_Entry_Custom_28" type="string"/>
+<Field __index="110" __sourcePath="{}/Book1/Report_Entry_Custom_29" containerType="SINGLE" label="Report Entry Custom 29" name="Report_Entry_Custom_29" type="string"/>
+<Field __index="111" __sourcePath="{}/Book1/Report_Entry_Custom_30" containerType="SINGLE" label="Report Entry Custom 30" name="Report_Entry_Custom_30" type="string"/>
+<Field __index="112" __sourcePath="{}/Book1/Report_Entry_Custom_31" containerType="SINGLE" label="Report Entry Custom 31" name="Report_Entry_Custom_31" type="string"/>
+<Field __index="113" __sourcePath="{}/Book1/Report_Entry_Custom_32" containerType="SINGLE" label="Report Entry Custom 32" name="Report_Entry_Custom_32" type="string"/>
+<Field __index="114" __sourcePath="{}/Book1/Report_Entry_Custom_33" containerType="SINGLE" label="Report Entry Custom 33" name="Report_Entry_Custom_33" type="string"/>
+<Field __index="115" __sourcePath="{}/Book1/Report_Entry_Custom_34" containerType="SINGLE" label="Report Entry Custom 34" name="Report_Entry_Custom_34" type="string"/>
+<Field __index="116" __sourcePath="{}/Book1/Report_Entry_Custom_35" containerType="SINGLE" label="Report Entry Custom 35" name="Report_Entry_Custom_35" type="string"/>
+<Field __index="117" __sourcePath="{}/Book1/Report_Entry_Custom_36" containerType="SINGLE" label="Report Entry Custom 36" name="Report_Entry_Custom_36" type="string"/>
+<Field __index="118" __sourcePath="{}/Book1/Report_Entry_Custom_37" containerType="SINGLE" label="Report Entry Custom 37" name="Report_Entry_Custom_37" type="string"/>
+<Field __index="119" __sourcePath="{}/Book1/Report_Entry_Custom_38" containerType="SINGLE" label="Report Entry Custom 38" name="Report_Entry_Custom_38" type="string"/>
+<Field __index="120" __sourcePath="{}/Book1/Report_Entry_Custom_39" containerType="SINGLE" label="Report Entry Custom 39" name="Report_Entry_Custom_39" type="string"/>
+<Field __index="121" __sourcePath="{}/Book1/Report_Entry_Custom_40" containerType="SINGLE" label="Report Entry Custom 40" name="Report_Entry_Custom_40" type="string"/>
+<Field __index="122" __sourcePath="{}/Book1/Report_Entry_Transaction_Amount" containerType="SINGLE" label="Report Entry Transaction Amount" name="Report_Entry_Transaction_Amount" type="string"/>
+<Field __index="123" __sourcePath="{}/Book1/Report_Entry_Posted_Amount" containerType="SINGLE" label="Report Entry Posted Amount" name="Report_Entry_Posted_Amount" type="string"/>
+<Field __index="124" __sourcePath="{}/Book1/Report_Entry_Approved_Amount" containerType="SINGLE" label="Report Entry Approved Amount" name="Report_Entry_Approved_Amount" type="string"/>
+<Field __index="125" __sourcePath="{}/Book1/Payment_Type_Code" containerType="SINGLE" label="Payment Type Code" name="Payment_Type_Code" type="string"/>
+<Field __index="126" __sourcePath="{}/Book1/Payment_Code" containerType="SINGLE" label="Payment Code" name="Payment_Code" type="string"/>
+<Field __index="127" __sourcePath="{}/Book1/Report_Payment_Reimbursement_Type" containerType="SINGLE" label="Report Payment Reimbursement Type" name="Report_Payment_Reimbursement_Type" type="string"/>
+<Field __index="128" __sourcePath="{}/Book1/Bill_Date" containerType="SINGLE" label="Bill Date" name="Bill_Date" type="string"/>
+<Field __index="129" __sourcePath="{}/Book1/Billed_Credit_Card_Account_Number" containerType="SINGLE" label="Billed Credit Card Account Number" name="Billed_Credit_Card_Account_Number" type="string"/>
+<Field __index="130" __sourcePath="{}/Book1/Billed_Credit_Card_Description" containerType="SINGLE" label="Billed Credit Card Description" name="Billed_Credit_Card_Description" type="string"/>
+<Field __index="131" __sourcePath="{}/Book1/Credit_Card_Transaction_JR_Key" containerType="SINGLE" label="Credit Card Transaction JR Key" name="Credit_Card_Transaction_JR_Key" type="string"/>
+<Field __index="132" __sourcePath="{}/Book1/Credit_Card_Transaction_Reference_Number" containerType="SINGLE" label="Credit Card Transaction Reference Number" name="Credit_Card_Transaction_Reference_Number" type="string"/>
+<Field __index="133" __sourcePath="{}/Book1/Credit_Card_Transaction_CCT_Key" containerType="SINGLE" label="Credit Card Transaction CCT Key" name="Credit_Card_Transaction_CCT_Key" type="string"/>
+<Field __index="134" __sourcePath="{}/Book1/Credit_Card_Transaction_CCT_Type" containerType="SINGLE" label="Credit Card Transaction CCT Type" name="Credit_Card_Transaction_CCT_Type" type="string"/>
+<Field __index="135" __sourcePath="{}/Book1/Credit_Card_Transaction_ID" containerType="SINGLE" label="Credit Card Transaction ID" name="Credit_Card_Transaction_ID" type="string"/>
+<Field __index="136" __sourcePath="{}/Book1/Credit_Card_Transaction_Amount" containerType="SINGLE" label="Credit Card Transaction Amount" name="Credit_Card_Transaction_Amount" type="string"/>
+<Field __index="137" __sourcePath="{}/Book1/Credit_Card_Transaction_Tax_Amount" containerType="SINGLE" label="Credit Card Transaction Tax Amount" name="Credit_Card_Transaction_Tax_Amount" type="string"/>
+<Field __index="138" __sourcePath="{}/Book1/Credit_Card_Transaction_Currency_Alpha_Code" containerType="SINGLE" label="Credit Card Transaction Currency Alpha Code" name="Credit_Card_Transaction_Currency_Alpha_Code" type="string"/>
+<Field __index="139" __sourcePath="{}/Book1/Credit_Card_Transaction_Posted_Amount" containerType="SINGLE" label="Credit Card Transaction Posted Amount" name="Credit_Card_Transaction_Posted_Amount" type="string"/>
+<Field __index="140" __sourcePath="{}/Book1/Credit_Card_Transaction_Posted_Currency_Alpha_Code" containerType="SINGLE" label="Credit Card Transaction Posted Currency Alpha Code" name="Credit_Card_Transaction_Posted_Currency_Alpha_Code" type="string"/>
+<Field __index="141" __sourcePath="{}/Book1/Credit_Card_Transaction_Date" containerType="SINGLE" label="Credit Card Transaction Date" name="Credit_Card_Transaction_Date" type="string"/>
+<Field __index="142" __sourcePath="{}/Book1/Credit_Card_Transaction_Posted_Date" containerType="SINGLE" label="Credit Card Transaction Posted Date" name="Credit_Card_Transaction_Posted_Date" type="string"/>
+<Field __index="143" __sourcePath="{}/Book1/Credit_Card_Transaction_Description" containerType="SINGLE" label="Credit Card Transaction Description" name="Credit_Card_Transaction_Description" type="string"/>
+<Field __index="144" __sourcePath="{}/Book1/Credit_Card_Transaction_Master_Card_Code" containerType="SINGLE" label="Credit Card Transaction Master Card Code" name="Credit_Card_Transaction_Master_Card_Code" type="string"/>
+<Field __index="145" __sourcePath="{}/Book1/Credit_Card_Transaction_Merchant_Name" containerType="SINGLE" label="Credit Card Transaction Merchant Name" name="Credit_Card_Transaction_Merchant_Name" type="string"/>
+<Field __index="146" __sourcePath="{}/Book1/Credit_Card_Transaction_Merchant_City" containerType="SINGLE" label="Credit Card Transaction Merchant City" name="Credit_Card_Transaction_Merchant_City" type="string"/>
+<Field __index="147" __sourcePath="{}/Book1/Credit_Card_Transaction_Merchant_State" containerType="SINGLE" label="Credit Card Transaction Merchant State" name="Credit_Card_Transaction_Merchant_State" type="string"/>
+<Field __index="148" __sourcePath="{}/Book1/Credit_Card_Transaction_Merchant_Country_Code" containerType="SINGLE" label="Credit Card Transaction Merchant Country Code" name="Credit_Card_Transaction_Merchant_Country_Code" type="string"/>
+<Field __index="149" __sourcePath="{}/Book1/Credit_Card_Transaction_Merchant_Reference_Number" containerType="SINGLE" label="Credit Card Transaction Merchant Reference Number" name="Credit_Card_Transaction_Merchant_Reference_Number" type="string"/>
+<Field __index="150" __sourcePath="{}/Book1/Credit_Card_Transaction_Billing_Type" containerType="SINGLE" label="Credit Card Transaction Billing Type" name="Credit_Card_Transaction_Billing_Type" type="string"/>
+<Field __index="151" __sourcePath="{}/Book1/Exchange_Rate_From_Billing_To_Employee_Currency" containerType="SINGLE" label="Exchange Rate From Billing To Employee Currency" name="Exchange_Rate_From_Billing_To_Employee_Currency" type="string"/>
+<Field __index="152" __sourcePath="{}/Book1/Billing_Amount" containerType="SINGLE" label="Billing Amount" name="Billing_Amount" type="string"/>
+<Field __index="153" __sourcePath="{}/Book1/Individual_Credit_Card_Account_Number" containerType="SINGLE" label="Individual Credit Card Account Number" name="Individual_Credit_Card_Account_Number" type="string"/>
+<Field __index="154" __sourcePath="{}/Book1/Individual_Credit_Card_Name_On_Card" containerType="SINGLE" label="Individual Credit Card Name On Card" name="Individual_Credit_Card_Name_On_Card" type="string"/>
+<Field __index="155" __sourcePath="{}/Book1/Merchant_Doing_Business_As" containerType="SINGLE" label="Merchant Doing Business As" name="Merchant_Doing_Business_As" type="string"/>
+<Field __index="156" __sourcePath="{}/Book1/Acquirer_Reference_Number" containerType="SINGLE" label="Acquirer Reference Number" name="Acquirer_Reference_Number" type="string"/>
+<Field __index="157" __sourcePath="{}/Book1/Report_Entry_Location_Country_Code" containerType="SINGLE" label="Report Entry Location Country Code" name="Report_Entry_Location_Country_Code" type="string"/>
+<Field __index="158" __sourcePath="{}/Book1/Report_Entry_Location_Country_Sub_Code" containerType="SINGLE" label="Report Entry Location Country Sub Code" name="Report_Entry_Location_Country_Sub_Code" type="string"/>
+<Field __index="159" __sourcePath="{}/Book1/Report_Entry_Foreign_or_Domestic_Flag" containerType="SINGLE" label="Report Entry Foreign or Domestic Flag" name="Report_Entry_Foreign_or_Domestic_Flag" type="string"/>
+<Field __index="160" __sourcePath="{}/Book1/Market_Code" containerType="SINGLE" label="Market Code" name="Market_Code" type="string"/>
+<Field __index="161" __sourcePath="{}/Book1/Processor_Reference_Number" containerType="SINGLE" label="Processor Reference Number" name="Processor_Reference_Number" type="string"/>
+<Field __index="162" __sourcePath="{}/Book1/Journal_Payer_Payment_Type_Name" containerType="SINGLE" label="Journal Payer Payment Type Name" name="Journal_Payer_Payment_Type_Name" type="string"/>
+<Field __index="163" __sourcePath="{}/Book1/Journal_Payer_Payment_Code_Name" containerType="SINGLE" label="Journal Payer Payment Code Name" name="Journal_Payer_Payment_Code_Name" type="string"/>
+<Field __index="164" __sourcePath="{}/Book1/Journal_Payee_Payment_Type_Name" containerType="SINGLE" label="Journal Payee Payment Type Name" name="Journal_Payee_Payment_Type_Name" type="string"/>
+<Field __index="165" __sourcePath="{}/Book1/Journal_Payee_Payment_Code_Name" containerType="SINGLE" label="Journal Payee Payment Code Name" name="Journal_Payee_Payment_Code_Name" type="string"/>
+<Field __index="166" __sourcePath="{}/Book1/Journal_Account_Code" containerType="SINGLE" label="Journal Account Code" name="Journal_Account_Code" type="string"/>
+<Field __index="167" __sourcePath="{}/Book1/Journal_Debit_or_Credit" containerType="SINGLE" label="Journal Debit or Credit" name="Journal_Debit_or_Credit" type="string"/>
+<Field __index="168" __sourcePath="{}/Book1/Journal_Amount" containerType="SINGLE" label="Journal Amount" name="Journal_Amount" type="string"/>
+<Field __index="169" __sourcePath="{}/Book1/Journal_Key" containerType="SINGLE" label="Journal Key" name="Journal_Key" type="string"/>
+<Field __index="170" __sourcePath="{}/Book1/Car_Business_Distance" containerType="SINGLE" label="Car Business Distance" name="Car_Business_Distance" type="string"/>
+<Field __index="171" __sourcePath="{}/Book1/Car_Personal_Distance" containerType="SINGLE" label="Car Personal Distance" name="Car_Personal_Distance" type="string"/>
+<Field __index="172" __sourcePath="{}/Book1/Car_Passenger_Count" containerType="SINGLE" label="Car Passenger Count" name="Car_Passenger_Count" type="string"/>
+<Field __index="173" __sourcePath="{}/Book1/Vehicle_ID" containerType="SINGLE" label="Vehicle ID" name="Vehicle_ID" type="string"/>
+<Field __index="174" __sourcePath="{}/Book1/Credit_Card_Transaction_Sales" containerType="SINGLE" label="Credit Card Transaction Sales" name="Credit_Card_Transaction_Sales" type="string"/>
+<Field __index="175" __sourcePath="{}/Book1/Credit_Card_Vendor_Name" containerType="SINGLE" label="Credit Card Vendor Name" name="Credit_Card_Vendor_Name" type="string"/>
+<Field __index="176" __sourcePath="{}/Book1/Cash_Advance_Request_Amount" containerType="SINGLE" label="Cash Advance Request Amount" name="Cash_Advance_Request_Amount" type="string"/>
+<Field __index="177" __sourcePath="{}/Book1/Cash_Advance_Request_Currency_Alpha_Code" containerType="SINGLE" label="Cash Advance Request Currency Alpha Code" name="Cash_Advance_Request_Currency_Alpha_Code" type="string"/>
+<Field __index="178" __sourcePath="{}/Book1/Cash_Advance_Request_Currency_Numeric_Code" containerType="SINGLE" label="Cash Advance Request Currency Numeric Code" name="Cash_Advance_Request_Currency_Numeric_Code" type="string"/>
+<Field __index="179" __sourcePath="{}/Book1/Cash_Advance_Exchange_Rate" containerType="SINGLE" label="Cash Advance Exchange Rate" name="Cash_Advance_Exchange_Rate" type="string"/>
+<Field __index="180" __sourcePath="{}/Book1/Cash_Advance_Currency_Alpha_Code" containerType="SINGLE" label="Cash Advance Currency Alpha Code" name="Cash_Advance_Currency_Alpha_Code" type="string"/>
+<Field __index="181" __sourcePath="{}/Book1/Cash_Advance_Currency_Numeric_Code" containerType="SINGLE" label="Cash Advance Currency Numeric Code" name="Cash_Advance_Currency_Numeric_Code" type="string"/>
+<Field __index="182" __sourcePath="{}/Book1/Cash_Advance_Issued_Date" containerType="SINGLE" label="Cash Advance Issued Date" name="Cash_Advance_Issued_Date" type="string"/>
+<Field __index="183" __sourcePath="{}/Book1/Cash_Advance_Payment_Code_Name" containerType="SINGLE" label="Cash Advance Payment Code Name" name="Cash_Advance_Payment_Code_Name" type="string"/>
+<Field __index="184" __sourcePath="{}/Book1/Cash_Advance_Transaction_Type" containerType="SINGLE" label="Cash Advance Transaction Type" name="Cash_Advance_Transaction_Type" type="string"/>
+<Field __index="185" __sourcePath="{}/Book1/Cash_Advance_Request_Date" containerType="SINGLE" label="Cash Advance Request Date" name="Cash_Advance_Request_Date" type="string"/>
+<Field __index="186" __sourcePath="{}/Book1/Cash_Advance_Key" containerType="SINGLE" label="Cash Advance Key" name="Cash_Advance_Key" type="string"/>
+<Field __index="187" __sourcePath="{}/Book1/Cash_Advance_Payment_Method" containerType="SINGLE" label="Cash Advance Payment Method" name="Cash_Advance_Payment_Method" type="string"/>
+<Field __index="188" __sourcePath="{}/Book1/Allocation_Key" containerType="SINGLE" label="Allocation Key" name="Allocation_Key" type="string"/>
+<Field __index="189" __sourcePath="{}/Book1/Allocation_Percentage" containerType="SINGLE" label="Allocation Percentage" name="Allocation_Percentage" type="string"/>
+<Field __index="190" __sourcePath="{}/Book1/Allocation_Custom_1" containerType="SINGLE" label="Allocation Custom 1" name="Allocation_Custom_1" type="string"/>
+<Field __index="191" __sourcePath="{}/Book1/Allocation_Custom_2" containerType="SINGLE" label="Allocation Custom 2" name="Allocation_Custom_2" type="string"/>
+<Field __index="192" __sourcePath="{}/Book1/Allocation_Custom_3" containerType="SINGLE" label="Allocation Custom 3" name="Allocation_Custom_3" type="string"/>
+<Field __index="193" __sourcePath="{}/Book1/Allocation_Custom_4" containerType="SINGLE" label="Allocation Custom 4" name="Allocation_Custom_4" type="string"/>
+<Field __index="194" __sourcePath="{}/Book1/Allocation_Custom_5" containerType="SINGLE" label="Allocation Custom 5" name="Allocation_Custom_5" type="string"/>
+<Field __index="195" __sourcePath="{}/Book1/Allocation_Custom_6_Country" containerType="SINGLE" label="Allocation Custom 6 - Country" name="Allocation_Custom_6_Country" type="string"/>
+<Field __index="196" __sourcePath="{}/Book1/Allocation_Custom_7_Company" containerType="SINGLE" label="Allocation Custom 7 - Company" name="Allocation_Custom_7_Company" type="string"/>
+<Field __index="197" __sourcePath="{}/Book1/Allocation_Custom_8_Cost_Object_Type" containerType="SINGLE" label="Allocation Custom 8 - Cost Object Type" name="Allocation_Custom_8_Cost_Object_Type" type="string"/>
+<Field __index="198" __sourcePath="{}/Book1/Allocation_Custom_9_Cost_Object_Value" containerType="SINGLE" label="Allocation Custom 9 - Cost Object Value" name="Allocation_Custom_9_Cost_Object_Value" type="string"/>
+<Field __index="199" __sourcePath="{}/Book1/Allocation_Custom_10" containerType="SINGLE" label="Allocation Custom 10" name="Allocation_Custom_10" type="string"/>
+<Field __index="200" __sourcePath="{}/Book1/Allocation_Custom_11" containerType="SINGLE" label="Allocation Custom 11" name="Allocation_Custom_11" type="string"/>
+<Field __index="201" __sourcePath="{}/Book1/Allocation_Custom_12" containerType="SINGLE" label="Allocation Custom 12" name="Allocation_Custom_12" type="string"/>
+<Field __index="202" __sourcePath="{}/Book1/Allocation_Custom_13" containerType="SINGLE" label="Allocation Custom 13" name="Allocation_Custom_13" type="string"/>
+<Field __index="203" __sourcePath="{}/Book1/Allocation_Custom_14" containerType="SINGLE" label="Allocation Custom 14" name="Allocation_Custom_14" type="string"/>
+<Field __index="204" __sourcePath="{}/Book1/Allocation_Custom_15" containerType="SINGLE" label="Allocation Custom 15" name="Allocation_Custom_15" type="string"/>
+<Field __index="205" __sourcePath="{}/Book1/Allocation_Custom_16" containerType="SINGLE" label="Allocation Custom 16" name="Allocation_Custom_16" type="string"/>
+<Field __index="206" __sourcePath="{}/Book1/Allocation_Custom_17" containerType="SINGLE" label="Allocation Custom 17" name="Allocation_Custom_17" type="string"/>
+<Field __index="207" __sourcePath="{}/Book1/Allocation_Custom_18" containerType="SINGLE" label="Allocation Custom 18" name="Allocation_Custom_18" type="string"/>
+<Field __index="208" __sourcePath="{}/Book1/Allocation_Custom_19" containerType="SINGLE" label="Allocation Custom 19" name="Allocation_Custom_19" type="string"/>
+<Field __index="209" __sourcePath="{}/Book1/Allocation_Custom_20" containerType="SINGLE" label="Allocation Custom 20" name="Allocation_Custom_20" type="string"/>
+<Field __index="210" __sourcePath="{}/Book1/Journal_Net_of_Total_Adjusted_Tax" containerType="SINGLE" label="Journal Net of Total Adjusted Tax" name="Journal_Net_of_Total_Adjusted_Tax" type="string"/>
+<Field __index="211" __sourcePath="{}/Book1/TA_Reimb_Meal_Lodging_or_Combined_Type" containerType="SINGLE" label="TA Reimb. Meal Lodging or Combined Type" name="TA_Reimb_Meal_Lodging_or_Combined_Type" type="string"/>
+<Field __index="212" __sourcePath="{}/Book1/TA_Display_Limit" containerType="SINGLE" label="TA Display Limit" name="TA_Display_Limit" type="string"/>
+<Field __index="213" __sourcePath="{}/Book1/TA_Allowance_Limit" containerType="SINGLE" label="TA Allowance Limit" name="TA_Allowance_Limit" type="string"/>
+<Field __index="214" __sourcePath="{}/Book1/Allowable_Threshold" containerType="SINGLE" label="Allowable Threshold" name="Allowable_Threshold" type="string"/>
+<Field __index="215" __sourcePath="{}/Book1/TA_Fixed_Meal_Lodging_Type" containerType="SINGLE" label="TA Fixed Meal Lodging Type" name="TA_Fixed_Meal_Lodging_Type" type="string"/>
+<Field __index="216" __sourcePath="{}/Book1/Base_Amount" containerType="SINGLE" label="Base Amount" name="Base_Amount" type="string"/>
+<Field __index="217" __sourcePath="{}/Book1/Allowance_Amount" containerType="SINGLE" label="Allowance Amount" name="Allowance_Amount" type="string"/>
+<Field __index="218" __sourcePath="{}/Book1/TA_Fixed_Overnight" containerType="SINGLE" label="TA Fixed Overnight" name="TA_Fixed_Overnight" type="string"/>
+<Field __index="219" __sourcePath="{}/Book1/TA_Fixed_Breakfast_Provided_Flag" containerType="SINGLE" label="TA Fixed Breakfast Provided Flag" name="TA_Fixed_Breakfast_Provided_Flag" type="string"/>
+<Field __index="220" __sourcePath="{}/Book1/TA_Fixed_Lunch_Provided_Flag" containerType="SINGLE" label="TA Fixed Lunch Provided Flag" name="TA_Fixed_Lunch_Provided_Flag" type="string"/>
+<Field __index="221" __sourcePath="{}/Book1/TA_Fixed_Dinner_Provided_Flag" containerType="SINGLE" label="TA Fixed Dinner Provided Flag" name="TA_Fixed_Dinner_Provided_Flag" type="string"/>
+<Field __index="222" __sourcePath="{}/Book1/Total_Tax_Adjusted_Posted_Amount" containerType="SINGLE" label="Total Tax Adjusted Posted Amount" name="Total_Tax_Adjusted_Posted_Amount" type="string"/>
+<Field __index="223" __sourcePath="{}/Book1/Total_Reclaim_Adjusted_Amount" containerType="SINGLE" label="Total Reclaim Adjusted Amount" name="Total_Reclaim_Adjusted_Amount" type="string"/>
+<Field __index="224" __sourcePath="{}/Book1/Tax_Authority_Name" containerType="SINGLE" label="Tax Authority Name" name="Tax_Authority_Name" type="string"/>
+<Field __index="225" __sourcePath="{}/Book1/Tax_Authority_Label" containerType="SINGLE" label="Tax Authority Label" name="Tax_Authority_Label" type="string"/>
+<Field __index="226" __sourcePath="{}/Book1/Report_Entry_Tax_Transaction_Amount" containerType="SINGLE" label="Report Entry Tax Transaction Amount" name="Report_Entry_Tax_Transaction_Amount" type="string"/>
+<Field __index="227" __sourcePath="{}/Book1/Report_Entry_Tax_Posted_Amount" containerType="SINGLE" label="Report Entry Tax Posted Amount" name="Report_Entry_Tax_Posted_Amount" type="string"/>
+<Field __index="228" __sourcePath="{}/Book1/Tax_Source" containerType="SINGLE" label="Tax Source" name="Tax_Source" type="string"/>
+<Field __index="229" __sourcePath="{}/Book1/Report_Entry_Tax_Reclaim_Transaction_Amount" containerType="SINGLE" label="Report Entry Tax Reclaim Transaction Amount" name="Report_Entry_Tax_Reclaim_Transaction_Amount" type="string"/>
+<Field __index="230" __sourcePath="{}/Book1/Report_Entry_Tax_Reclaim_Posted_Amount" containerType="SINGLE" label="Report Entry Tax Reclaim Posted Amount" name="Report_Entry_Tax_Reclaim_Posted_Amount" type="string"/>
+<Field __index="231" __sourcePath="{}/Book1/Report_Entry_Tax_Code" containerType="SINGLE" label="Report Entry Tax Code" name="Report_Entry_Tax_Code" type="string"/>
+<Field __index="232" __sourcePath="{}/Book1/Report_Entry_Tax_Reclaim_Domestic_Flag" containerType="SINGLE" label="Report Entry Tax Reclaim Domestic Flag" name="Report_Entry_Tax_Reclaim_Domestic_Flag" type="string"/>
+<Field __index="233" __sourcePath="{}/Book1/Report_Entry_Tax_Adjusted_Amount" containerType="SINGLE" label="Report Entry Tax Adjusted Amount" name="Report_Entry_Tax_Adjusted_Amount" type="string"/>
+<Field __index="234" __sourcePath="{}/Book1/Report_Entry_Tax_Reclaim_Adjusted_Amount" containerType="SINGLE" label="Report Entry Tax Reclaim Adjusted Amount" name="Report_Entry_Tax_Reclaim_Adjusted_Amount" type="string"/>
+<Field __index="235" __sourcePath="{}/Book1/Report_Entry_Tax_Reclaim_Code" containerType="SINGLE" label="Report Entry Tax Reclaim Code" name="Report_Entry_Tax_Reclaim_Code" type="string"/>
+<Field __index="236" __sourcePath="{}/Book1/Report_Entry_Tax_Reclaim_Trans_Adjusted_Code" containerType="SINGLE" label="Report Entry Tax Reclaim Trans Adjusted Code" name="Report_Entry_Tax_Reclaim_Trans_Adjusted_Code" type="string"/>
+<Field __index="237" __sourcePath="{}/Book1/Report_Entry_Tax_Allocation_Reclaim_Code" containerType="SINGLE" label="Report Entry Tax Allocation Reclaim Code" name="Report_Entry_Tax_Allocation_Reclaim_Code" type="string"/>
+<Field __index="238" __sourcePath="{}/Book1/Travel_Request_ID" containerType="SINGLE" label="Travel Request ID" name="Travel_Request_ID" type="string"/>
+<Field __index="239" __sourcePath="{}/Book1/Travel_Request_Name" containerType="SINGLE" label="Travel Request Name" name="Travel_Request_Name" type="string"/>
+<Field __index="240" __sourcePath="{}/Book1/Travel_Request_Total_Posted_Amount" containerType="SINGLE" label="Travel Request Total Posted Amount" name="Travel_Request_Total_Posted_Amount" type="string"/>
+<Field __index="241" __sourcePath="{}/Book1/Travel_Request_Total_Approved_Amount" containerType="SINGLE" label="Travel Request Total Approved Amount" name="Travel_Request_Total_Approved_Amount" type="string"/>
+<Field __index="242" __sourcePath="{}/Book1/Travel_Request_Start_Date" containerType="SINGLE" label="Travel Request Start Date" name="Travel_Request_Start_Date" type="string"/>
+<Field __index="243" __sourcePath="{}/Book1/Travel_Request_End_Date" containerType="SINGLE" label="Travel Request End Date" name="Travel_Request_End_Date" type="string"/>
+<Field __index="244" __sourcePath="{}/Book1/Travel_Request_Authorized_Date" containerType="SINGLE" label="Travel Request Authorized Date" name="Travel_Request_Authorized_Date" type="string"/>
+<Field __index="245" __sourcePath="{}/Book1/Report_Entry_TotalTax_PostedAmount" containerType="SINGLE" label="Report Entry Total&#10;Tax Posted&#10;Amount" name="Report_Entry_TotalTax_PostedAmount" type="string"/>
+<Field __index="246" __sourcePath="{}/Book1/Net_Tax_Amount" containerType="SINGLE" label="Net Tax Amount" name="Net_Tax_Amount" type="string"/>
+<Field __index="247" __sourcePath="{}/Book1/Report_Entry_TotalReclaim_AdjustedAmount" containerType="SINGLE" label="Report Entry Total&#10;Reclaim Adjusted&#10;Amount" name="Report_Entry_TotalReclaim_AdjustedAmount" type="string"/>
+<Field __index="248" __sourcePath="{}/Book1/Net_AdjustedReclaim_Amount" containerType="SINGLE" label="Net Adjusted&#10;Reclaim Amount" name="Net_AdjustedReclaim_Amount" type="string"/>
+<Field __index="249" __sourcePath="{}/Book1/Report_Entry_Payment_Type_Name" containerType="SINGLE" label="Report Entry Payment Type Name" name="Report_Entry_Payment_Type_Name" type="string"/>
+<Field __index="250" __sourcePath="{}/Book1/Card_Program_Type_Code" containerType="SINGLE" label="Card Program Type Code" name="Card_Program_Type_Code" type="string"/>
+<Field __index="251" __sourcePath="{}/Book1/Statement_Period_Start_Date" containerType="SINGLE" label="Statement Period Start Date" name="Statement_Period_Start_Date" type="string"/>
+<Field __index="252" __sourcePath="{}/Book1/Statement_Period_End_Date" containerType="SINGLE" label="Statement Period End Date" name="Statement_Period_End_Date" type="string"/>
+<Field __index="253" __sourcePath="{}/Book1/Cash_Account_Code" containerType="SINGLE" label="Cash Account Code" name="Cash_Account_Code" type="string"/>
+<Field __index="254" __sourcePath="{}/Book1/Liability_Account_Code" containerType="SINGLE" label="Liability Account Code" name="Liability_Account_Code" type="string"/>
+<Field __index="255" __sourcePath="{}/Book1/Estimated_Payment_Date" containerType="SINGLE" label="Estimated Payment Date" name="Estimated_Payment_Date" type="string"/>
+</Record>
+</Metadata>
+<Dictionary>
+<Entry id="DictionaryEntry0" input="true" name="inputPayload" output="false" type="object"/>
+<Entry id="DictionaryEntry1" input="false" name="outputPayload" output="true" type="object"/>
+</Dictionary>
+</Global>
+<Phase number="0">
+<Node charset="UTF-8" enabled="enabled" fileURL="dict:inputPayload" guiName="CSV READER" guiX="20" guiY="20" id="DATA_READER0" quoteCharacter="both" quotedStrings="true" skipRows="1" trim="true" type="DATA_READER">
+<attr name="_data_format"><![CDATA[CSV]]></attr>
+<attr name="__dataSourceDefinition"><![CDATA[D:/Coke/Book1.csv]]></attr>
+</Node>
+<Node cacheInMemory="true" charset="UTF-8" enabled="enabled" fileURL="dict:outputPayload" guiName="XML WRITER" guiX="900" guiY="20" id="EXT_XML_WRITER0" type="EXT_XML_WRITER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<Book1 xmlns:clover="http://www.cloveretl.com/ns/xmlmapping" clover:inPort="0">
+  <Constant>$0.Constant</Constant>
+  <clover:element clover:name="Batch_ID">$0.Batch_ID</clover:element>
+  <clover:element clover:name="Batch_Date">$0.Batch_Date</clover:element>
+  <clover:element clover:name="Sequence_Number">$0.Sequence_Number</clover:element>
+  <clover:element clover:name="Employee_ID">$0.Employee_ID</clover:element>
+  <clover:element clover:name="Employee_Last_Name">$0.Employee_Last_Name</clover:element>
+  <clover:element clover:name="Employee_First_Name">$0.Employee_First_Name</clover:element>
+  <MI>$0.MI</MI>
+  <clover:element clover:name="Employee_Group_ID_Custom_21">$0.Employee_Group_ID_Custom_21</clover:element>
+  <clover:element clover:name="Employee_Org_Unit_1">$0.Employee_Org_Unit_1</clover:element>
+  <clover:element clover:name="Employee_Org_Unit_2">$0.Employee_Org_Unit_2</clover:element>
+  <clover:element clover:name="Employee_Org_Unit_3">$0.Employee_Org_Unit_3</clover:element>
+  <clover:element clover:name="Employee_Org_Unit_4">$0.Employee_Org_Unit_4</clover:element>
+  <clover:element clover:name="Employee_Org_Unit_5_BU_Country_of_Residence">$0.Employee_Org_Unit_5_BU_Country_of_Residence</clover:element>
+  <clover:element clover:name="Employee_Org_Unit_6">$0.Employee_Org_Unit_6</clover:element>
+  <clover:element clover:name="ACH_Bank_Account_Number">$0.ACH_Bank_Account_Number</clover:element>
+  <clover:element clover:name="ACH_Bank_Routing_Number">$0.ACH_Bank_Routing_Number</clover:element>
+  <clover:element clover:name="Journal_Net_of_Total_Adjusted_Reclaim_Tax">$0.Journal_Net_of_Total_Adjusted_Reclaim_Tax</clover:element>
+  <clover:element clover:name="Report_ID">$0.Report_ID</clover:element>
+  <clover:element clover:name="Report_Key">$0.Report_Key</clover:element>
+  <Ledger>$0.Ledger</Ledger>
+  <clover:element clover:name="Reimbursement_Currency_Alpha_ISE">$0.Reimbursement_Currency_Alpha_ISE</clover:element>
+  <clover:element clover:name="Home_Country">$0.Home_Country</clover:element>
+  <clover:element clover:name="Report_Submit_Date">$0.Report_Submit_Date</clover:element>
+  <clover:element clover:name="Report_User_Defined_Date">$0.Report_User_Defined_Date</clover:element>
+  <clover:element clover:name="Report_Payment_Processing_Date">$0.Report_Payment_Processing_Date</clover:element>
+  <clover:element clover:name="Report_Name">$0.Report_Name</clover:element>
+  <clover:element clover:name="Report_Image_Required">$0.Report_Image_Required</clover:element>
+  <clover:element clover:name="Report_has_VAT_entry">$0.Report_has_VAT_entry</clover:element>
+  <clover:element clover:name="Report_has_TA_entry">$0.Report_has_TA_entry</clover:element>
+  <clover:element clover:name="Report_Total_Post_Amount">$0.Report_Total_Post_Amount</clover:element>
+  <clover:element clover:name="Report_Total_Approved_Amount">$0.Report_Total_Approved_Amount</clover:element>
+  <clover:element clover:name="Report_Policy_Name">$0.Report_Policy_Name</clover:element>
+  <clover:element clover:name="Report_Entry_Budget_Accrual_Date">$0.Report_Entry_Budget_Accrual_Date</clover:element>
+  <clover:element clover:name="Report_Org_Unit_1">$0.Report_Org_Unit_1</clover:element>
+  <clover:element clover:name="Report_Org_Unit_2">$0.Report_Org_Unit_2</clover:element>
+  <clover:element clover:name="Report_Org_Unit_3">$0.Report_Org_Unit_3</clover:element>
+  <clover:element clover:name="Report_Org_Unit_4">$0.Report_Org_Unit_4</clover:element>
+  <clover:element clover:name="Report_Org_Unit_5">$0.Report_Org_Unit_5</clover:element>
+  <clover:element clover:name="Report_Org_Unit_6">$0.Report_Org_Unit_6</clover:element>
+  <clover:element clover:name="Report_Custom_1">$0.Report_Custom_1</clover:element>
+  <clover:element clover:name="Report_Custom_2">$0.Report_Custom_2</clover:element>
+  <clover:element clover:name="Report_Custom_3">$0.Report_Custom_3</clover:element>
+  <clover:element clover:name="Report_Custom_4">$0.Report_Custom_4</clover:element>
+  <clover:element clover:name="Report_Custom_5_Country">$0.Report_Custom_5_Country</clover:element>
+  <clover:element clover:name="Report_Custom_6_Company">$0.Report_Custom_6_Company</clover:element>
+  <clover:element clover:name="Report_Custom_7_Cost_Object_Type">$0.Report_Custom_7_Cost_Object_Type</clover:element>
+  <clover:element clover:name="Report_Custom_8_Cost_Object_Value">$0.Report_Custom_8_Cost_Object_Value</clover:element>
+  <clover:element clover:name="Report_Custom_9">$0.Report_Custom_9</clover:element>
+  <clover:element clover:name="Report_Custom_10">$0.Report_Custom_10</clover:element>
+  <clover:element clover:name="Report_Custom_11">$0.Report_Custom_11</clover:element>
+  <clover:element clover:name="Report_Custom_12">$0.Report_Custom_12</clover:element>
+  <clover:element clover:name="Report_Custom_13">$0.Report_Custom_13</clover:element>
+  <clover:element clover:name="Report_Custom_14">$0.Report_Custom_14</clover:element>
+  <clover:element clover:name="Report_Custom_15">$0.Report_Custom_15</clover:element>
+  <clover:element clover:name="Report_Custom_16">$0.Report_Custom_16</clover:element>
+  <clover:element clover:name="Report_Custom_17_AP_Vendor_ID">$0.Report_Custom_17_AP_Vendor_ID</clover:element>
+  <clover:element clover:name="Report_Custom_18">$0.Report_Custom_18</clover:element>
+  <clover:element clover:name="Report_Custom_19">$0.Report_Custom_19</clover:element>
+  <clover:element clover:name="Report_Custom_20">$0.Report_Custom_20</clover:element>
+  <clover:element clover:name="Report_Entry_Id">$0.Report_Entry_Id</clover:element>
+  <clover:element clover:name="Report_Entry_Transaction_Type">$0.Report_Entry_Transaction_Type</clover:element>
+  <clover:element clover:name="Report_Entry_Expense_Type_Name">$0.Report_Entry_Expense_Type_Name</clover:element>
+  <clover:element clover:name="Report_Entry_Transaction_Date">$0.Report_Entry_Transaction_Date</clover:element>
+  <clover:element clover:name="Report_Entry_Currency_Alpha_Code">$0.Report_Entry_Currency_Alpha_Code</clover:element>
+  <clover:element clover:name="Report_Entry_Exchange_Rate">$0.Report_Entry_Exchange_Rate</clover:element>
+  <clover:element clover:name="Report_Entry_Exchange_Rate_Direction">$0.Report_Entry_Exchange_Rate_Direction</clover:element>
+  <clover:element clover:name="Report_Entry_Is_Personal_Flag">$0.Report_Entry_Is_Personal_Flag</clover:element>
+  <clover:element clover:name="Report_Entry_Description">$0.Report_Entry_Description</clover:element>
+  <clover:element clover:name="Report_Entry_Vendor_Name">$0.Report_Entry_Vendor_Name</clover:element>
+  <clover:element clover:name="Report_Entry_Vendor_Description">$0.Report_Entry_Vendor_Description</clover:element>
+  <clover:element clover:name="Report_Entry_Receipt_Received_Flag">$0.Report_Entry_Receipt_Received_Flag</clover:element>
+  <clover:element clover:name="Report_Entry_Receipt_Type">$0.Report_Entry_Receipt_Type</clover:element>
+  <clover:element clover:name="Total_Employee_Attendee">$0.Total_Employee_Attendee</clover:element>
+  <clover:element clover:name="Total_Spouse_Attendee">$0.Total_Spouse_Attendee</clover:element>
+  <clover:element clover:name="Total_Business_Attendee">$0.Total_Business_Attendee</clover:element>
+  <clover:element clover:name="Report_Entry_Org_Unit_1">$0.Report_Entry_Org_Unit_1</clover:element>
+  <clover:element clover:name="Report_Entry_Org_Unit_2">$0.Report_Entry_Org_Unit_2</clover:element>
+  <clover:element clover:name="Report_Entry_Org_Unit_3">$0.Report_Entry_Org_Unit_3</clover:element>
+  <clover:element clover:name="Report_Entry_Org_Unit_4">$0.Report_Entry_Org_Unit_4</clover:element>
+  <clover:element clover:name="Report_Entry_Org_Unit_5">$0.Report_Entry_Org_Unit_5</clover:element>
+  <clover:element clover:name="Report_Entry_Org_Unit_6">$0.Report_Entry_Org_Unit_6</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_1">$0.Report_Entry_Custom_1</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_2">$0.Report_Entry_Custom_2</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_3">$0.Report_Entry_Custom_3</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_4">$0.Report_Entry_Custom_4</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_5">$0.Report_Entry_Custom_5</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_6">$0.Report_Entry_Custom_6</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_7">$0.Report_Entry_Custom_7</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_8">$0.Report_Entry_Custom_8</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_9">$0.Report_Entry_Custom_9</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_10">$0.Report_Entry_Custom_10</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_11">$0.Report_Entry_Custom_11</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_12">$0.Report_Entry_Custom_12</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_13">$0.Report_Entry_Custom_13</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_14">$0.Report_Entry_Custom_14</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_15">$0.Report_Entry_Custom_15</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_16">$0.Report_Entry_Custom_16</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_17">$0.Report_Entry_Custom_17</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_18">$0.Report_Entry_Custom_18</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_19">$0.Report_Entry_Custom_19</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_20">$0.Report_Entry_Custom_20</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_21">$0.Report_Entry_Custom_21</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_22">$0.Report_Entry_Custom_22</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_23">$0.Report_Entry_Custom_23</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_24">$0.Report_Entry_Custom_24</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_25">$0.Report_Entry_Custom_25</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_26">$0.Report_Entry_Custom_26</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_27">$0.Report_Entry_Custom_27</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_28">$0.Report_Entry_Custom_28</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_29">$0.Report_Entry_Custom_29</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_30">$0.Report_Entry_Custom_30</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_31">$0.Report_Entry_Custom_31</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_32">$0.Report_Entry_Custom_32</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_33">$0.Report_Entry_Custom_33</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_34">$0.Report_Entry_Custom_34</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_35">$0.Report_Entry_Custom_35</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_36">$0.Report_Entry_Custom_36</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_37">$0.Report_Entry_Custom_37</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_38">$0.Report_Entry_Custom_38</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_39">$0.Report_Entry_Custom_39</clover:element>
+  <clover:element clover:name="Report_Entry_Custom_40">$0.Report_Entry_Custom_40</clover:element>
+  <clover:element clover:name="Report_Entry_Transaction_Amount">$0.Report_Entry_Transaction_Amount</clover:element>
+  <clover:element clover:name="Report_Entry_Posted_Amount">$0.Report_Entry_Posted_Amount</clover:element>
+  <clover:element clover:name="Report_Entry_Approved_Amount">$0.Report_Entry_Approved_Amount</clover:element>
+  <clover:element clover:name="Payment_Type_Code">$0.Payment_Type_Code</clover:element>
+  <clover:element clover:name="Payment_Code">$0.Payment_Code</clover:element>
+  <clover:element clover:name="Report_Payment_Reimbursement_Type">$0.Report_Payment_Reimbursement_Type</clover:element>
+  <clover:element clover:name="Bill_Date">$0.Bill_Date</clover:element>
+  <clover:element clover:name="Billed_Credit_Card_Account_Number">$0.Billed_Credit_Card_Account_Number</clover:element>
+  <clover:element clover:name="Billed_Credit_Card_Description">$0.Billed_Credit_Card_Description</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_JR_Key">$0.Credit_Card_Transaction_JR_Key</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Reference_Number">$0.Credit_Card_Transaction_Reference_Number</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_CCT_Key">$0.Credit_Card_Transaction_CCT_Key</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_CCT_Type">$0.Credit_Card_Transaction_CCT_Type</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_ID">$0.Credit_Card_Transaction_ID</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Amount">$0.Credit_Card_Transaction_Amount</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Tax_Amount">$0.Credit_Card_Transaction_Tax_Amount</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Currency_Alpha_Code">$0.Credit_Card_Transaction_Currency_Alpha_Code</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Posted_Amount">$0.Credit_Card_Transaction_Posted_Amount</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Posted_Currency_Alpha_Code">$0.Credit_Card_Transaction_Posted_Currency_Alpha_Code</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Date">$0.Credit_Card_Transaction_Date</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Posted_Date">$0.Credit_Card_Transaction_Posted_Date</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Description">$0.Credit_Card_Transaction_Description</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Master_Card_Code">$0.Credit_Card_Transaction_Master_Card_Code</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Merchant_Name">$0.Credit_Card_Transaction_Merchant_Name</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Merchant_City">$0.Credit_Card_Transaction_Merchant_City</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Merchant_State">$0.Credit_Card_Transaction_Merchant_State</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Merchant_Country_Code">$0.Credit_Card_Transaction_Merchant_Country_Code</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Merchant_Reference_Number">$0.Credit_Card_Transaction_Merchant_Reference_Number</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Billing_Type">$0.Credit_Card_Transaction_Billing_Type</clover:element>
+  <clover:element clover:name="Exchange_Rate_From_Billing_To_Employee_Currency">$0.Exchange_Rate_From_Billing_To_Employee_Currency</clover:element>
+  <clover:element clover:name="Billing_Amount">$0.Billing_Amount</clover:element>
+  <clover:element clover:name="Individual_Credit_Card_Account_Number">$0.Individual_Credit_Card_Account_Number</clover:element>
+  <clover:element clover:name="Individual_Credit_Card_Name_On_Card">$0.Individual_Credit_Card_Name_On_Card</clover:element>
+  <clover:element clover:name="Merchant_Doing_Business_As">$0.Merchant_Doing_Business_As</clover:element>
+  <clover:element clover:name="Acquirer_Reference_Number">$0.Acquirer_Reference_Number</clover:element>
+  <clover:element clover:name="Report_Entry_Location_Country_Code">$0.Report_Entry_Location_Country_Code</clover:element>
+  <clover:element clover:name="Report_Entry_Location_Country_Sub_Code">$0.Report_Entry_Location_Country_Sub_Code</clover:element>
+  <clover:element clover:name="Report_Entry_Foreign_or_Domestic_Flag">$0.Report_Entry_Foreign_or_Domestic_Flag</clover:element>
+  <clover:element clover:name="Market_Code">$0.Market_Code</clover:element>
+  <clover:element clover:name="Processor_Reference_Number">$0.Processor_Reference_Number</clover:element>
+  <clover:element clover:name="Journal_Payer_Payment_Type_Name">$0.Journal_Payer_Payment_Type_Name</clover:element>
+  <clover:element clover:name="Journal_Payer_Payment_Code_Name">$0.Journal_Payer_Payment_Code_Name</clover:element>
+  <clover:element clover:name="Journal_Payee_Payment_Type_Name">$0.Journal_Payee_Payment_Type_Name</clover:element>
+  <clover:element clover:name="Journal_Payee_Payment_Code_Name">$0.Journal_Payee_Payment_Code_Name</clover:element>
+  <clover:element clover:name="Journal_Account_Code">$0.Journal_Account_Code</clover:element>
+  <clover:element clover:name="Journal_Debit_or_Credit">$0.Journal_Debit_or_Credit</clover:element>
+  <clover:element clover:name="Journal_Amount">$0.Journal_Amount</clover:element>
+  <clover:element clover:name="Journal_Key">$0.Journal_Key</clover:element>
+  <clover:element clover:name="Car_Business_Distance">$0.Car_Business_Distance</clover:element>
+  <clover:element clover:name="Car_Personal_Distance">$0.Car_Personal_Distance</clover:element>
+  <clover:element clover:name="Car_Passenger_Count">$0.Car_Passenger_Count</clover:element>
+  <clover:element clover:name="Vehicle_ID">$0.Vehicle_ID</clover:element>
+  <clover:element clover:name="Credit_Card_Transaction_Sales">$0.Credit_Card_Transaction_Sales</clover:element>
+  <clover:element clover:name="Credit_Card_Vendor_Name">$0.Credit_Card_Vendor_Name</clover:element>
+  <clover:element clover:name="Cash_Advance_Request_Amount">$0.Cash_Advance_Request_Amount</clover:element>
+  <clover:element clover:name="Cash_Advance_Request_Currency_Alpha_Code">$0.Cash_Advance_Request_Currency_Alpha_Code</clover:element>
+  <clover:element clover:name="Cash_Advance_Request_Currency_Numeric_Code">$0.Cash_Advance_Request_Currency_Numeric_Code</clover:element>
+  <clover:element clover:name="Cash_Advance_Exchange_Rate">$0.Cash_Advance_Exchange_Rate</clover:element>
+  <clover:element clover:name="Cash_Advance_Currency_Alpha_Code">$0.Cash_Advance_Currency_Alpha_Code</clover:element>
+  <clover:element clover:name="Cash_Advance_Currency_Numeric_Code">$0.Cash_Advance_Currency_Numeric_Code</clover:element>
+  <clover:element clover:name="Cash_Advance_Issued_Date">$0.Cash_Advance_Issued_Date</clover:element>
+  <clover:element clover:name="Cash_Advance_Payment_Code_Name">$0.Cash_Advance_Payment_Code_Name</clover:element>
+  <clover:element clover:name="Cash_Advance_Transaction_Type">$0.Cash_Advance_Transaction_Type</clover:element>
+  <clover:element clover:name="Cash_Advance_Request_Date">$0.Cash_Advance_Request_Date</clover:element>
+  <clover:element clover:name="Cash_Advance_Key">$0.Cash_Advance_Key</clover:element>
+  <clover:element clover:name="Cash_Advance_Payment_Method">$0.Cash_Advance_Payment_Method</clover:element>
+  <clover:element clover:name="Allocation_Key">$0.Allocation_Key</clover:element>
+  <clover:element clover:name="Allocation_Percentage">$0.Allocation_Percentage</clover:element>
+  <clover:element clover:name="Allocation_Custom_1">$0.Allocation_Custom_1</clover:element>
+  <clover:element clover:name="Allocation_Custom_2">$0.Allocation_Custom_2</clover:element>
+  <clover:element clover:name="Allocation_Custom_3">$0.Allocation_Custom_3</clover:element>
+  <clover:element clover:name="Allocation_Custom_4">$0.Allocation_Custom_4</clover:element>
+  <clover:element clover:name="Allocation_Custom_5">$0.Allocation_Custom_5</clover:element>
+  <clover:element clover:name="Allocation_Custom_6_Country">$0.Allocation_Custom_6_Country</clover:element>
+  <clover:element clover:name="Allocation_Custom_7_Company">$0.Allocation_Custom_7_Company</clover:element>
+  <clover:element clover:name="Allocation_Custom_8_Cost_Object_Type">$0.Allocation_Custom_8_Cost_Object_Type</clover:element>
+  <clover:element clover:name="Allocation_Custom_9_Cost_Object_Value">$0.Allocation_Custom_9_Cost_Object_Value</clover:element>
+  <clover:element clover:name="Allocation_Custom_10">$0.Allocation_Custom_10</clover:element>
+  <clover:element clover:name="Allocation_Custom_11">$0.Allocation_Custom_11</clover:element>
+  <clover:element clover:name="Allocation_Custom_12">$0.Allocation_Custom_12</clover:element>
+  <clover:element clover:name="Allocation_Custom_13">$0.Allocation_Custom_13</clover:element>
+  <clover:element clover:name="Allocation_Custom_14">$0.Allocation_Custom_14</clover:element>
+  <clover:element clover:name="Allocation_Custom_15">$0.Allocation_Custom_15</clover:element>
+  <clover:element clover:name="Allocation_Custom_16">$0.Allocation_Custom_16</clover:element>
+  <clover:element clover:name="Allocation_Custom_17">$0.Allocation_Custom_17</clover:element>
+  <clover:element clover:name="Allocation_Custom_18">$0.Allocation_Custom_18</clover:element>
+  <clover:element clover:name="Allocation_Custom_19">$0.Allocation_Custom_19</clover:element>
+  <clover:element clover:name="Allocation_Custom_20">$0.Allocation_Custom_20</clover:element>
+  <clover:element clover:name="Journal_Net_of_Total_Adjusted_Tax">$0.Journal_Net_of_Total_Adjusted_Tax</clover:element>
+  <clover:element clover:name="TA_Reimb_Meal_Lodging_or_Combined_Type">$0.TA_Reimb_Meal_Lodging_or_Combined_Type</clover:element>
+  <clover:element clover:name="TA_Display_Limit">$0.TA_Display_Limit</clover:element>
+  <clover:element clover:name="TA_Allowance_Limit">$0.TA_Allowance_Limit</clover:element>
+  <clover:element clover:name="Allowable_Threshold">$0.Allowable_Threshold</clover:element>
+  <clover:element clover:name="TA_Fixed_Meal_Lodging_Type">$0.TA_Fixed_Meal_Lodging_Type</clover:element>
+  <clover:element clover:name="Base_Amount">$0.Base_Amount</clover:element>
+  <clover:element clover:name="Allowance_Amount">$0.Allowance_Amount</clover:element>
+  <clover:element clover:name="TA_Fixed_Overnight">$0.TA_Fixed_Overnight</clover:element>
+  <clover:element clover:name="TA_Fixed_Breakfast_Provided_Flag">$0.TA_Fixed_Breakfast_Provided_Flag</clover:element>
+  <clover:element clover:name="TA_Fixed_Lunch_Provided_Flag">$0.TA_Fixed_Lunch_Provided_Flag</clover:element>
+  <clover:element clover:name="TA_Fixed_Dinner_Provided_Flag">$0.TA_Fixed_Dinner_Provided_Flag</clover:element>
+  <clover:element clover:name="Total_Tax_Adjusted_Posted_Amount">$0.Total_Tax_Adjusted_Posted_Amount</clover:element>
+  <clover:element clover:name="Total_Reclaim_Adjusted_Amount">$0.Total_Reclaim_Adjusted_Amount</clover:element>
+  <clover:element clover:name="Tax_Authority_Name">$0.Tax_Authority_Name</clover:element>
+  <clover:element clover:name="Tax_Authority_Label">$0.Tax_Authority_Label</clover:element>
+  <clover:element clover:name="Report_Entry_Tax_Transaction_Amount">$0.Report_Entry_Tax_Transaction_Amount</clover:element>
+  <clover:element clover:name="Report_Entry_Tax_Posted_Amount">$0.Report_Entry_Tax_Posted_Amount</clover:element>
+  <clover:element clover:name="Tax_Source">$0.Tax_Source</clover:element>
+  <clover:element clover:name="Report_Entry_Tax_Reclaim_Transaction_Amount">$0.Report_Entry_Tax_Reclaim_Transaction_Amount</clover:element>
+  <clover:element clover:name="Report_Entry_Tax_Reclaim_Posted_Amount">$0.Report_Entry_Tax_Reclaim_Posted_Amount</clover:element>
+  <clover:element clover:name="Report_Entry_Tax_Code">$0.Report_Entry_Tax_Code</clover:element>
+  <clover:element clover:name="Report_Entry_Tax_Reclaim_Domestic_Flag">$0.Report_Entry_Tax_Reclaim_Domestic_Flag</clover:element>
+  <clover:element clover:name="Report_Entry_Tax_Adjusted_Amount">$0.Report_Entry_Tax_Adjusted_Amount</clover:element>
+  <clover:element clover:name="Report_Entry_Tax_Reclaim_Adjusted_Amount">$0.Report_Entry_Tax_Reclaim_Adjusted_Amount</clover:element>
+  <clover:element clover:name="Report_Entry_Tax_Reclaim_Code">$0.Report_Entry_Tax_Reclaim_Code</clover:element>
+  <clover:element clover:name="Report_Entry_Tax_Reclaim_Trans_Adjusted_Code">$0.Report_Entry_Tax_Reclaim_Trans_Adjusted_Code</clover:element>
+  <clover:element clover:name="Report_Entry_Tax_Allocation_Reclaim_Code">$0.Report_Entry_Tax_Allocation_Reclaim_Code</clover:element>
+  <clover:element clover:name="Travel_Request_ID">$0.Travel_Request_ID</clover:element>
+  <clover:element clover:name="Travel_Request_Name">$0.Travel_Request_Name</clover:element>
+  <clover:element clover:name="Travel_Request_Total_Posted_Amount">$0.Travel_Request_Total_Posted_Amount</clover:element>
+  <clover:element clover:name="Travel_Request_Total_Approved_Amount">$0.Travel_Request_Total_Approved_Amount</clover:element>
+  <clover:element clover:name="Travel_Request_Start_Date">$0.Travel_Request_Start_Date</clover:element>
+  <clover:element clover:name="Travel_Request_End_Date">$0.Travel_Request_End_Date</clover:element>
+  <clover:element clover:name="Travel_Request_Authorized_Date">$0.Travel_Request_Authorized_Date</clover:element>
+  <clover:element clover:name="Report_Entry_TotalTax_PostedAmount">$0.Report_Entry_TotalTax_PostedAmount</clover:element>
+  <clover:element clover:name="Net_Tax_Amount">$0.Net_Tax_Amount</clover:element>
+  <clover:element clover:name="Report_Entry_TotalReclaim_AdjustedAmount">$0.Report_Entry_TotalReclaim_AdjustedAmount</clover:element>
+  <clover:element clover:name="Net_AdjustedReclaim_Amount">$0.Net_AdjustedReclaim_Amount</clover:element>
+  <clover:element clover:name="Report_Entry_Payment_Type_Name">$0.Report_Entry_Payment_Type_Name</clover:element>
+  <clover:element clover:name="Card_Program_Type_Code">$0.Card_Program_Type_Code</clover:element>
+  <clover:element clover:name="Statement_Period_Start_Date">$0.Statement_Period_Start_Date</clover:element>
+  <clover:element clover:name="Statement_Period_End_Date">$0.Statement_Period_End_Date</clover:element>
+  <clover:element clover:name="Cash_Account_Code">$0.Cash_Account_Code</clover:element>
+  <clover:element clover:name="Liability_Account_Code">$0.Liability_Account_Code</clover:element>
+  <clover:element clover:name="Estimated_Payment_Date">$0.Estimated_Payment_Date</clover:element>
+</Book1>]]></attr>
+<attr name="_data_format"><![CDATA[XML]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'Book1' -&gt; 'Book1'" guiX="460" guiY="20" id="FOREACH_BOOK1_BOOK1" transformClass="com.mulesoft.datamapper.transform.MelRecordTransform" type="REFORMAT">
+<attr name="melScript"><![CDATA[//MEL
+//START -> DO NOT REMOVE
+output.__id = num2str(input.__id);
+//END -> DO NOT REMOVE
+output.Constant = input.Constant;
+output.Batch_ID = input.Batch_ID;
+output.Batch_Date = input.Batch_Date;]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="DATA_READER0:0" guiBendpoints="" id="Edge0" inPort="Port 0 (in)" metadata="adf8d577-065d-49aa-8114-8d39811084c5" outPort="Port 0 (output)" toNode="FOREACH_BOOK1_BOOK1:0"/>
+<Edge debugMode="true" fromNode="FOREACH_BOOK1_BOOK1:0" guiBendpoints="" id="Edge1" inPort="Port 0 (in)" metadata="18cde7f1-3a5b-47d7-9004-18948d0c6f88" outPort="Port 0 (out)" toNode="EXT_XML_WRITER0:0"/>
+</Phase>
+</Graph>
